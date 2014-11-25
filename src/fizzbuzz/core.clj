@@ -13,3 +13,13 @@
 
 (defn is-divisible-by-five? [number]
 	(is-divisible-by? number 5))
+
+(defn is-divisible-by-fifteen? [number]
+	(is-divisible-by? number 15))
+
+(defn fizzbuzz [number]
+	(cond
+		(is-divisible-by-fifteen? number) "fizzbuzz"
+		(is-divisible-by-three? number) "fizz"
+		(is-divisible-by-five? number) "buzz"
+		:else number))
