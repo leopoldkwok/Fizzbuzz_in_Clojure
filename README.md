@@ -1,14 +1,37 @@
-# fizzbuzz
+Fizzbuzz in Clojure
+===================
 
-A Clojure library designed to ... well, that part is up to you.
+During week 10 at Makers Academy. I had the opportunity to experiment with completing the Fizzbuzz kata in Clojure.
 
-## Usage
 
-FIXME
+Technologies used
+-----------------
+- Leiningen
+- Clojure
 
-## License
 
-Copyright © 2014 FIXME
+How to set it up
+-----------------
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+```sh
+git clone git@github.com:leopoldkwok/Fizzbuzz_in_Clojure.git
+```
+
+Change into the directory
+
+```sh
+cd Fizzbuzz_in_Clojure
+```
+
+In order to execute the file, Install leiningen via Homebrew in the terminal
+
+```sh
+brew install leiningen
+```
+
+How to run tests
+----------------
+
+```sh
+$ lein test
+```
