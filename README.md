@@ -23,7 +23,7 @@ Change into the directory
 cd Fizzbuzz_in_Clojure
 ```
 
-In order to execute the file, Install leiningen via Homebrew in the terminal
+In order to execute the file, install leiningen via Homebrew in the terminal
 
 ```sh
 brew install leiningen
