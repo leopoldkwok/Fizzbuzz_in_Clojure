@@ -14,19 +14,19 @@ How to set it up
 -----------------
 
 ```sh
-git clone git@github.com:leopoldkwok/Fizzbuzz_in_Clojure.git
+$ git clone git@github.com:leopoldkwok/Fizzbuzz_in_Clojure.git
 ```
 
 Change into the directory
 
 ```sh
-cd Fizzbuzz_in_Clojure
+$ cd Fizzbuzz_in_Clojure
 ```
 
 In order to execute the file, install leiningen via Homebrew in the terminal
 
 ```sh
-brew install leiningen
+$ brew install leiningen
 ```
 
 How to run tests
